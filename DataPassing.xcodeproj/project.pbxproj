@@ -16,6 +16,9 @@
 		7D318CB52C63710700645A9B /* DataPassingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D318CB42C63710700645A9B /* DataPassingTests.swift */; };
 		7D318CBF2C63710700645A9B /* DataPassingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D318CBE2C63710700645A9B /* DataPassingUITests.swift */; };
 		7D318CC12C63710700645A9B /* DataPassingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D318CC02C63710700645A9B /* DataPassingUITestsLaunchTests.swift */; };
+		7D318CCE2C6377B700645A9B /* DataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D318CCD2C6377B700645A9B /* DataTableViewCell.swift */; };
+		7D318CD02C637AE100645A9B /* PersonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D318CCF2C637AE100645A9B /* PersonData.swift */; };
+		7D318CD22C637C4000645A9B /* DataDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D318CD12C637C4000645A9B /* DataDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		7D318CBA2C63710700645A9B /* DataPassingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataPassingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D318CBE2C63710700645A9B /* DataPassingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPassingUITests.swift; sourceTree = "<group>"; };
 		7D318CC02C63710700645A9B /* DataPassingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPassingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7D318CCD2C6377B700645A9B /* DataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableViewCell.swift; sourceTree = "<group>"; };
+		7D318CCF2C637AE100645A9B /* PersonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonData.swift; sourceTree = "<group>"; };
+		7D318CD12C637C4000645A9B /* DataDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 				7D318C9D2C63710400645A9B /* AppDelegate.swift */,
 				7D318C9F2C63710400645A9B /* SceneDelegate.swift */,
 				7D318CA12C63710400645A9B /* ViewController.swift */,
+				7D318CCD2C6377B700645A9B /* DataTableViewCell.swift */,
+				7D318CD12C637C4000645A9B /* DataDetailsViewController.swift */,
+				7D318CCF2C637AE100645A9B /* PersonData.swift */,
 				7D318CA32C63710400645A9B /* Main.storyboard */,
 				7D318CA62C63710700645A9B /* Assets.xcassets */,
 				7D318CA82C63710700645A9B /* LaunchScreen.storyboard */,
@@ -261,6 +270,9 @@
 				7D318CA22C63710400645A9B /* ViewController.swift in Sources */,
 				7D318C9E2C63710400645A9B /* AppDelegate.swift in Sources */,
 				7D318CA02C63710400645A9B /* SceneDelegate.swift in Sources */,
+				7D318CD02C637AE100645A9B /* PersonData.swift in Sources */,
+				7D318CCE2C6377B700645A9B /* DataTableViewCell.swift in Sources */,
+				7D318CD22C637C4000645A9B /* DataDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +454,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B6957N95J5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DataPassing/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -469,6 +482,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B6957N95J5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DataPassing/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
