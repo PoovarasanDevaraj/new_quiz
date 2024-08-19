@@ -9,4 +9,6 @@ import Foundation
 struct PersonData{
     var name: String!
     var age: Int!
+    var lastname: String!
 }
+
